@@ -1,0 +1,37 @@
+p.wp-block-tag-cloud a:hover{
+    background:#f7a238;
+}
+.wp-block-button .wp-block-button__link{
+    background:#f7a238;
+    color: #fff!important;
+}
+.wp-block-file .wp-block-file__button:hover, .wp-block-file .wp-block-file__button:focus, .wp-block-button .wp-block-button__link:hover, .wp-block-button .wp-block-button__link:focus {
+    background-color: #f7a238;
+    color: #fff;
+    border-color: #f7a238;
+}
+.wp-block-file .wp-block-file__button, .wp-block-button.is-style-outline .wp-block-button__link{
+    border-color:#f7a238!important;
+    color:#f7a238!important;
+}
+.wp-block-button.is-style-outline .wp-block-button__link:hover{
+border-color:#f7a238!important;
+    color:#f7a238!important;
+}
+.has-media-on-the-right  img{
+    width: 20vw!important;
+    margin-left: 0px!important;
+}
+.wp-block-media-text__media img{
+    height: auto;
+    max-width: unset;
+    vertical-align: middle;
+    width: 91%;
+    margin-left:43px;
+}
+.wp-block-quote:not(.is-large):not(.is-style-large), blockquote,#slider .carousel-control-prev-icon,#slider .carousel-control-next-icon{
+    border-color: #f7a238;
+}
+.sticky {
+    border-left: solid 4px #f7a238;
+}

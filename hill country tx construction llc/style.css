@@ -1,0 +1,167 @@
+/*
+Theme Name: Building Construction Lite
+Theme URI: https://www.ovationthemes.com/wordpress/free-building-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Building Construction Lite is a responsive, versatile and modern WordPress theme ideal to create websites for painting, plumbing, renovation, architecture, real estate, insdustrial works, welding, machining, electrician, flooring, roofing, interior design, realtor offices, hardware material, brick work, manufacturing plants, road building, home maintenance services, contractor, and more. It offers many customization options as well as features. Moreover, it offers advance options like customizable quote calculator, three different tile / grid blog layouts, unlimited project portfolio layouts based on grid pattern, page transitions and distinctive typography. It includes easy to work and fast page builder. It adapts well to every device, from smartphones and tablets to desktops. It comes with full support by our dedicated team and free updates. You will find this theme packed with carefully tailored features. You can add custom codes and it is compatible with major WordPress plugins like Elementor, Contact form 7 and many more. Your construction and building company website will be ready quickly and running in minutes.
+Version: 3.5
+Requires PHP: 5.6
+Tested up to: 6.4
+Requires at least: 5.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: building-construction-lite
+Template: construction-firm
+Tags: wide-blocks, block-styles, one-column, two-columns, three-columns, four-columns, right-sidebar, left-sidebar, grid-layout, custom-colors, custom-background, custom-header, flexible-header, featured-image-header, custom-menu, custom-logo, sticky-post, full-width-template, editor-style, featured-images, footer-widgets, post-formats, threaded-comments, blog, portfolio, photography
+
+Building Construction Lite WordPress Theme, Copyright 2022 pewilliams
+Building Construction Lite is distributed under the terms of the GNU GPL
+
+Building Construction Lite WordPress Theme is child theme of Construction Firm WordPress Theme, Copyright 2022 pewilliams
+Construction Firm WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+span.entry-author a,.comment-author a,.product_meta a,.widget_text a,.comment-content p a {
+    text-decoration: underline;
+}
+
+/*color change*/
+body,.gb_nav_menu li a,.info-box p{
+    color: #787878;
+}
+.woocommerce-message {
+    border-top-color: #f7a238;
+}
+.wc-block-cart__submit-container a,.scrollup,.single-tags a:hover,a.added_to_cart.wc-forward,.top_bar,.logo,.gb_nav_menu ul ul,button, input[type="button"], input[type="submit"],.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.home-btn a, .box-button a,#slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover,.inner-box,.img-box,.box ul li,#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,.prev.page-numbers, .next.page-numbers,.page-numbers.current,button.search-submit,.site-footer .search-form .search-submit,nav.woocommerce-MyAccount-navigation ul li{
+    background: #f7a238;
+}
+.wc-block-checkout__actions_row a ,.site-info a:hover,.entry-content .quotepost p,#Category-section pre.wp-block-verse,a.more-link,a,#Category-section .postbox.smallpostimage:hover h3 a, .top_header strong,.home-btn a:hover,#projects-box h3,.info-box i,#sidebar th,#sidebar td,#sidebar caption,#sidebar select,.site-footer .widget-area a:hover,a:hover, a:active{
+    color: #f7a238;
+}
+.bread_crumb a:hover,.bread_crumb span ,.woocommerce-breadcrumb a:hover,.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: #f7a238 !important;
+}
+.load :nth-child(2),.load :nth-child(4) {
+    background: #1d1d1d !important;
+}
+nav.woocommerce-MyAccount-navigation ul li:hover,.wc-block-cart__submit-container a:hover,.wc-block-cart__submit-container a:hover,a.added_to_cart.wc-forward:hover,.prev.page-numbers:focus, .prev.page-numbers:hover, .next.page-numbers:focus, .next.page-numbers:hover,button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon,.copyright,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+    background: #1d1d1d;
+}
+#sidebar label.wp-block-archives__label, #sidebar .wp-block-search .wp-block-search__label, #sidebar h3, #sidebar h1.wp-block-heading, #sidebar h2.wp-block-heading, #sidebar h3.wp-block-heading, #sidebar h4.wp-block-heading, #sidebar h5.wp-block-heading, #sidebar h6.wp-block-heading,.comment-body,.wc-block-cart,#Category-section .date-box,a.more-link:hover,.wc-block-checkout__form, .wp-block-woocommerce-checkout-order-summary-block, .wc-block-checkout__actions_row a:hover,.wc-block-cart__submit-container a,h1,h2,h3,h4,h5,h6,.home-btn a, .box-button a,.carousel-control-prev:focus, .carousel-control-prev:hover, .carousel-control-next:focus, .carousel-control-next:hover,.inner-box h4 a,.inner-box p,.box ul li a,#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,#sidebar h3,#Category-section h3 a,.prev.page-numbers, .next.page-numbers,.page-numbers.current,#sidebar .tagcloud a, .site-footer .tagcloud a,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,button, input[type="button"], input[type="submit"],.logo h1, .site-title, .site-title a,.logo p,.links i, .links span, .top_bar p,.logo h1 a,a.added_to_cart.wc-forward{
+    color: #1d1d1d;
+}
+.wc-block-components-product-badge {
+    box-shadow: 2px 2px 0 0 #1d1d1d;
+    border: solid 2px #1d1d1d !important;
+}
+#sidebar label.wp-block-archives__label, #sidebar .wp-block-search .wp-block-search__label, #sidebar h3, #sidebar h1.wp-block-heading, #sidebar h2.wp-block-heading, #sidebar h3.wp-block-heading, #sidebar h4.wp-block-heading, #sidebar h5.wp-block-heading, #sidebar h6.wp-block-heading,.inner-box hr,#sidebar h3,.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar,.comment-author .avatar{
+    border-color: #1d1d1d;
+}
+.site-info{
+    background: #101010;
+}
+.info-box i,.preloader{
+    background: #fff2e2;
+}
+.scrollup.is-active:hover, .scrollup.is-active:focus ,.prev.page-numbers:focus, .prev.page-numbers:hover, .next.page-numbers:focus, .next.page-numbers:hover,button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus ,.site-info .footer-copyright,.carousel-control-next:hover,.carousel-control-prev:hover{
+    color: #fff;
+}
+.load :first-child{background:#f7a238;animation-delay:-1.5s}
+.load :nth-child(2){background:#f7a238;animation-delay:-1s}
+.load :nth-child(3){background:#f7a238;animation-delay:-0.5s}
+.load :last-child{background:#f7a238}
+
+.gb_nav_menu ul ul a:hover{
+    background: #fff;
+    color: #f7a238 !important;
+}
+.logo {
+    position: static;
+    padding: 13px 0;
+}
+.img-box img{
+    width: 100%;
+}
+#about-us h4 {
+    font-size: 40px;
+}
+#about-us h3 {
+    background: #f7a238;
+    display: inline-block;
+    padding: 15px;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+#about-us .link-more {
+    text-align: left !important;
+}
+/* Default*/
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+
+@media screen and (max-width: 425px){
+    .menu_header {
+        background: #fff;
+    }
+}
+@media screen and (max-width: 800px){
+    .toggle-menu button {
+        background: #f7a238;
+        color: #fff;
+        margin: 0 !important;
+    }
+    .side_gb_nav{
+        background: #1d1d1d;
+    }
+    .logo{
+        text-align: center;
+    }
+    .gb_nav_menu ul li a:active, .gb_nav_menu ul li a:hover {
+        color: #f7a238 !important;
+    }
+    .gb_nav_menu ul ul{
+        background: transparent;
+    }
+}
